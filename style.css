@@ -1,0 +1,15 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.logo h3{
+    float: left;
+    margin-left: 10%;
+}
+
+.navbar ul {
+    list-style: none;
+}
