@@ -1,15 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.start {
+    padding: 20px;
+    background-color: pink;
+}
 .logo {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    margin-bottom: 8%;
 }
 
 .logo h3{
     float: left;
-    margin-left: 10%;
 }
 
 .navbar ul {
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.hero img {
+    width: 35%;
+    height: auto;
 }
