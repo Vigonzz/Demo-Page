@@ -17,6 +17,11 @@ body {
 
 .logo h3{
     float: left;
+    margin-left: 60px;
+}
+
+.navbar {
+    margin-right: 70px;
 }
 
 .navbar ul {
@@ -25,7 +30,18 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 20px;
+    gap: 40px;
+}
+
+.navbar a {
+    color: black;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
 }
 
 .hero {
