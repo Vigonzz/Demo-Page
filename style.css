@@ -6,6 +6,7 @@ body {
 .start {
     padding: 20px;
     background-color: pink;
+    margin: 0;
 }
 .logo {
     display: flex;
@@ -15,9 +16,9 @@ body {
     margin-bottom: 8%;
 }
 
-.logo h3{
+.logo h2{
     float: left;
-    margin-left: 60px;
+    margin-left: 240px;
 }
 
 .navbar {
@@ -46,9 +47,17 @@ a:active {
 
 .hero {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
     margin-bottom: 5%;
+    flex-direction: row;
+    width: 800px;
+    height: 480px;
+}
+
+.hero-info {
+    align-content: center;
+    text-align: center;
 }
 .hero img {
     width: 35%;
