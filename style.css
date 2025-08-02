@@ -4,10 +4,12 @@ body {
 }
 
 .start {
-    padding: 20px;
     background-color: pink;
     margin: 0;
+    margin-left: 55px;
+    margin-right: 55px;
 }
+
 .logo {
     display: flex;
     align-items: center;
@@ -18,7 +20,7 @@ body {
 
 .logo h2{
     float: left;
-    margin-left: 240px;
+    margin-left: 180px;
 }
 
 .navbar {
@@ -47,19 +49,16 @@ a:active {
 
 .hero {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    margin-bottom: 5%;
     flex-direction: row;
-    width: 800px;
-    height: 480px;
+    gap: 50px;
+}
+
+.hero img {
+    max-width: 600px;
+    aspect-ratio: 2/1;
 }
 
 .hero-info {
-    align-content: center;
-    text-align: center;
-}
-.hero img {
-    width: 35%;
-    height: auto;
+    max-width: 480px;
+    margin-left: 180px;
 }
