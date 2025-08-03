@@ -8,6 +8,7 @@ body {
     margin: 0;
     margin-left: 55px;
     margin-right: 55px;
+    padding-bottom: 5%;
 }
 
 .logo {
@@ -24,7 +25,7 @@ body {
 }
 
 .navbar {
-    margin-right: 70px;
+    margin-right: 88px;
 }
 
 .navbar ul {
@@ -61,4 +62,24 @@ a:active {
 .hero-info {
     max-width: 480px;
     margin-left: 180px;
+}
+
+.hero-info h1 {
+    font-size: 3rem;
+    font-weight: 100px;
+    margin-top: 0px;
+}
+
+.hero-info p {
+    font-size: 1.2rem;
+    margin-top: -30px;
+}
+
+.hero-info button {
+    background-color: antiquewhite;
+    border-radius: 8px;
+    border: none;
+    width: 120px;
+    height: 35px;
+    font-size: 1rem
 }
