@@ -81,5 +81,11 @@ a:active {
     border: none;
     width: 120px;
     height: 35px;
-    font-size: 1rem
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 0 5px palevioletred;
+}
+
+button:hover {
+    background-color: antiquewhite
 }
