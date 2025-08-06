@@ -89,3 +89,28 @@ a:active {
 button:hover {
     background-color: antiquewhite
 }
+
+.random h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+    color: rgb(241, 122, 141);
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-info {
+    display:flex;
+    flex-direction: row;
+    margin-left: 180px;
+    margin-right: 150px;
+    gap: 5px;
+}
+
+.set img {
+    width: 200px;
+    height: 200px;
+}
