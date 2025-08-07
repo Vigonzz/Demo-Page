@@ -107,10 +107,27 @@ button:hover {
     flex-direction: row;
     margin-left: 180px;
     margin-right: 150px;
-    gap: 5px;
 }
 
 .set img {
     width: 200px;
     height: 200px;
+    border-radius: 10px;
+    border: palevioletred 5px solid;
+}
+
+.set figcaption {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.testimonials {
+    background-color: rgb(240, 212, 216);
+    height: 320px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.testimonial-info {
+    text-align: center;
 }
