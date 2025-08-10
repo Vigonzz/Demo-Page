@@ -144,3 +144,25 @@ button:hover {
 #user {
     margin-left: 730px;
 }
+
+.ending {
+    border: red 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end {
+    border: red 2px solid;
+    padding: 0px 100px 20px 100px;
+    display: flex;
+    margin-top: 80px;
+    gap: 100px;
+}
+
+
+.end-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
