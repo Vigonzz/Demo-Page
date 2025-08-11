@@ -94,7 +94,7 @@ button:hover {
     text-align: center;
     margin-top: 50px;
     font-size: 2rem;
-    color: rgb(241, 122, 141);
+    color: rgb(215, 140, 165);
 }
 
 .random {
@@ -114,7 +114,7 @@ button:hover {
     width: 200px;
     height: 200px;
     border-radius: 10px;
-    border: palevioletred 5px solid;
+    border: rgb(215, 140, 165) 5px solid;
 }
 
 .set figcaption {
@@ -146,23 +146,41 @@ button:hover {
 }
 
 .ending {
-    border: red 2px solid;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 .end {
-    border: red 2px solid;
-    padding: 0px 100px 20px 100px;
+    padding: 10px 100px 10px 100px;
     display: flex;
     margin-top: 80px;
     gap: 100px;
+    background-color: rgb(215, 140, 165);
+    border-radius: 8px;
 }
 
-
+.end-header p{
+    margin-top: -15px;
+}
 .end-button {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.end-button button {
+    background-color: rgb(215, 140, 165);
+    border: black 2px solid;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: pink;
 }
