@@ -150,6 +150,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     margin-bottom: 120px;
+    color: antiquewhite
 }
 
 .end {
@@ -172,15 +173,22 @@ button:hover {
 
 .end-button button {
     background-color: rgb(215, 140, 165);
-    border: black 2px solid;
+    border: antiquewhite 2px solid;
     border-radius: 5px;
     width: 120px;
     height: 30px;
-    color: black;
+    color: antiquewhite;
     font-size: 1rem;
     cursor: pointer;
 }
 
 footer {
     background-color: pink;
+    height: 100px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
